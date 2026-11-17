@@ -103,5 +103,3 @@ Notes are stored as a JSON array under the `localStorage` key `notes-app:notes`:
 - Restoring from trash keeps the archived flag, so a note returns to wherever it was.
 
 To reset the app, clear the `notes-app:notes` key in your browser's DevTools (Application → Local Storage).
-
-See [plan.md](plan.md) for the full implementation plan.
